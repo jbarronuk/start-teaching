@@ -6,11 +6,9 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 
-import cloudflare from '@astrojs/cloudflare';
-
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://start-teaching.pages.dev',
   integrations: [mdx(), sitemap()],
 
   fonts: [
